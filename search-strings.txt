@@ -1,0 +1,24 @@
+This document lists the queries that were inserted into the web intefaces of the respective search engines
+
+Scopus
+============================================
+TITLE-ABS-KEY ( ( ( privacy*  OR  "data protection" )  AND  ( pattern*  OR  "best practice*"  OR  smell*  OR  "abstract solution*"  OR  "reusable solution*"  OR  "repeatable solution*"  OR  "anti pattern*"  OR  "anti-pattern*"  OR  "antipattern*" ) )  AND  ( "software engineering"  OR  "software development"  OR  "software design"  OR  "software architecture"  OR  "software technology" ) )  AND  SUBJAREA ( comp ) 
+
+
+ACM Digital Library
+============================================
+
+recordAbstract: (+(privacy "data protection") +(pattern patterns smell smells "abstract solution" "abstract solutions" "reusable solution" "reusable solutions" "repeatable solution" "repeatable solutions" "antipattern" "antipatterns" "anti-pattern" "anti-patterns" "anti pattern" "anti patterns") +("software development" "software design" "software engineering" "software architecture" "software technology")) recordTitle: (+(privacy "data protection") +(pattern patterns smell smells "abstract solution" "abstract solutions" "reusable solution" "reusable solutions" "repeatable solution" "repeatable solutions" "antipattern" "antipatterns" "anti-pattern" "anti-patterns" "anti pattern" "anti patterns") +("software development" "software design" "software engineering" "software architecture" "software technology")) keywords: (+(privacy "data protection") +(pattern patterns smell smells "abstract solution" "abstract solutions" "reusable solution" "reusable solutions" "repeatable solution" "repeatable solutions" "antipattern" "antipatterns" "anti-pattern" "anti-patterns" "anti pattern" "anti patterns") +("software development" "software design" "software engineering" "software architecture" "software technology")) 
+
+IEEExplore
+============================================
+
+IEEExplore had a hard upper limit regarding the number of search terms allowed in a query. To deal with this limitation, we step-wise tested the different terms for synonyms of patterns and removed terms that did not yield additional results. The query listed here returns complete results regarding our search terms and IEEExplore.
+
+(( privacy* OR "data protection" ) AND ( pattern* OR "best practice" OR "best practices" OR antipattern* OR anti-pattern*)) AND ( "software engineering" OR "software development" OR "software design" OR "software architecture" OR "software technology" )
+
+
+Springer
+============================================
+((privacy* OR "data protection") NEAR ( pattern* OR "best practice*" OR smell* OR "abstract solution*" OR "reusable solution*" OR "repeatable solution*" OR "anti pattern*" OR "anti-pattern*" OR "antipattern*")) AND ("software engineering" OR "software development" OR "software design" OR "software architecture" OR "software technology")
+
