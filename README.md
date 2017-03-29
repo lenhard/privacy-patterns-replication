@@ -1,4 +1,4 @@
-# Replication package for the paper "A Literature Review of Research on Patterns for Privacy in Engineering Software"
+# Replication package for the paper "A Literature Study on Privacy Patterns Research"
 
 This repository is to contain:
  - Search queries used to gather bibliographic data from the different databases
