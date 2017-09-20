@@ -1,6 +1,6 @@
 # Replication package for the paper "A Literature Study on Privacy Patterns Research"
 
-The study will be published at the 43rd Euromicro Conference on Software Engineering and Advanced Applications (SEAA), Systematic Literature Reviews and Mapping Studies in Software Engineering track (SMSE), Vienna, Austria, August 30 – September 1, 2017
+The study is published at the 43rd Euromicro Conference on Software Engineering and Advanced Applications (SEAA), Systematic Literature Reviews and Mapping Studies in Software Engineering track (SMSE), Vienna, Austria, August 30 – September 1, 2017
 
 BibTex entry for the paper:
 ```
